@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		889CE150134F6770009907FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE14F134F6770009907FE /* UIKit.framework */; };
+		889CE152134F6770009907FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE151134F6770009907FE /* Foundation.framework */; };
+		889CE154134F6770009907FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE153134F6770009907FE /* CoreGraphics.framework */; };
+		889CE15A134F6770009907FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 889CE158134F6770009907FE /* InfoPlist.strings */; };
+		889CE15D134F6770009907FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889CE15C134F6770009907FE /* main.m */; };
+		889CE160134F6770009907FE /* SpellingBeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889CE15F134F6770009907FE /* SpellingBeeAppDelegate.m */; };
+		889CE164134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 889CE163134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m */; };
+		889CE167134F6770009907FE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889CE165134F6770009907FE /* MainWindow_iPhone.xib */; };
+		889CE16B134F6770009907FE /* SpellingBeeAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 889CE16A134F6770009907FE /* SpellingBeeAppDelegate_iPad.m */; };
+		889CE16E134F6770009907FE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889CE16C134F6770009907FE /* MainWindow_iPad.xib */; };
+		889CE175134F6770009907FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE14F134F6770009907FE /* UIKit.framework */; };
+		889CE176134F6770009907FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE151134F6770009907FE /* Foundation.framework */; };
+		889CE177134F6770009907FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE153134F6770009907FE /* CoreGraphics.framework */; };
+		889CE17F134F6770009907FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 889CE17D134F6770009907FE /* InfoPlist.strings */; };
+		889CE182134F6770009907FE /* SpellingBeeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 889CE181134F6770009907FE /* SpellingBeeTests.h */; };
+		889CE184134F6770009907FE /* SpellingBeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 889CE183134F6770009907FE /* SpellingBeeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889CE178134F6770009907FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889CE142134F676F009907FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889CE14A134F676F009907FE;
+			remoteInfo = SpellingBee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		889CE14B134F6770009907FE /* SpellingBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889CE14F134F6770009907FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		889CE151134F6770009907FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		889CE153134F6770009907FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		889CE157134F6770009907FE /* SpellingBee-Info.plist */ = {isa = PBXFileReference; path = "SpellingBee-Info.plist"; sourceTree = "<group>"; };
+		889CE159134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		889CE15B134F6770009907FE /* SpellingBee-Prefix.pch */ = {isa = PBXFileReference; path = "SpellingBee-Prefix.pch"; sourceTree = "<group>"; };
+		889CE15C134F6770009907FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		889CE15E134F6770009907FE /* SpellingBeeAppDelegate.h */ = {isa = PBXFileReference; path = SpellingBeeAppDelegate.h; sourceTree = "<group>"; };
+		889CE15F134F6770009907FE /* SpellingBeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellingBeeAppDelegate.m; sourceTree = "<group>"; };
+		889CE162134F6770009907FE /* SpellingBeeAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = SpellingBeeAppDelegate_iPhone.h; path = iPhone/SpellingBeeAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		889CE163134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SpellingBeeAppDelegate_iPhone.m; path = iPhone/SpellingBeeAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		889CE166134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		889CE169134F6770009907FE /* SpellingBeeAppDelegate_iPad.h */ = {isa = PBXFileReference; name = SpellingBeeAppDelegate_iPad.h; path = iPad/SpellingBeeAppDelegate_iPad.h; sourceTree = "<group>"; };
+		889CE16A134F6770009907FE /* SpellingBeeAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SpellingBeeAppDelegate_iPad.m; path = iPad/SpellingBeeAppDelegate_iPad.m; sourceTree = "<group>"; };
+		889CE16D134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		889CE174134F6770009907FE /* SpellingBeeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellingBeeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889CE17C134F6770009907FE /* SpellingBeeTests-Info.plist */ = {isa = PBXFileReference; path = "SpellingBeeTests-Info.plist"; sourceTree = "<group>"; };
+		889CE17E134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		889CE180134F6770009907FE /* SpellingBeeTests-Prefix.pch */ = {isa = PBXFileReference; path = "SpellingBeeTests-Prefix.pch"; sourceTree = "<group>"; };
+		889CE181134F6770009907FE /* SpellingBeeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpellingBeeTests.h; sourceTree = "<group>"; };
+		889CE183134F6770009907FE /* SpellingBeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellingBeeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889CE148134F676F009907FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE150134F6770009907FE /* UIKit.framework in Frameworks */,
+				889CE152134F6770009907FE /* Foundation.framework in Frameworks */,
+				889CE154134F6770009907FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889CE170134F6770009907FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE175134F6770009907FE /* UIKit.framework in Frameworks */,
+				889CE176134F6770009907FE /* Foundation.framework in Frameworks */,
+				889CE177134F6770009907FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		889CE140134F676F009907FE = {
+			isa = PBXGroup;
+			children = (
+				889CE155134F6770009907FE /* SpellingBee */,
+				889CE17A134F6770009907FE /* SpellingBeeTests */,
+				889CE14E134F6770009907FE /* Frameworks */,
+				889CE14C134F6770009907FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889CE14C134F6770009907FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889CE14B134F6770009907FE /* SpellingBee.app */,
+				889CE174134F6770009907FE /* SpellingBeeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889CE14E134F6770009907FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				889CE14F134F6770009907FE /* UIKit.framework */,
+				889CE151134F6770009907FE /* Foundation.framework */,
+				889CE153134F6770009907FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		889CE155134F6770009907FE /* SpellingBee */ = {
+			isa = PBXGroup;
+			children = (
+				889CE15E134F6770009907FE /* SpellingBeeAppDelegate.h */,
+				889CE15F134F6770009907FE /* SpellingBeeAppDelegate.m */,
+				889CE161134F6770009907FE /* iPhone */,
+				889CE168134F6770009907FE /* iPad */,
+				889CE156134F6770009907FE /* Supporting Files */,
+			);
+			path = SpellingBee;
+			sourceTree = "<group>";
+		};
+		889CE156134F6770009907FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889CE157134F6770009907FE /* SpellingBee-Info.plist */,
+				889CE158134F6770009907FE /* InfoPlist.strings */,
+				889CE15B134F6770009907FE /* SpellingBee-Prefix.pch */,
+				889CE15C134F6770009907FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		889CE161134F6770009907FE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				889CE162134F6770009907FE /* SpellingBeeAppDelegate_iPhone.h */,
+				889CE163134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m */,
+				889CE165134F6770009907FE /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		889CE168134F6770009907FE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				889CE169134F6770009907FE /* SpellingBeeAppDelegate_iPad.h */,
+				889CE16A134F6770009907FE /* SpellingBeeAppDelegate_iPad.m */,
+				889CE16C134F6770009907FE /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		889CE17A134F6770009907FE /* SpellingBeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				889CE181134F6770009907FE /* SpellingBeeTests.h */,
+				889CE183134F6770009907FE /* SpellingBeeTests.m */,
+				889CE17B134F6770009907FE /* Supporting Files */,
+			);
+			path = SpellingBeeTests;
+			sourceTree = "<group>";
+		};
+		889CE17B134F6770009907FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889CE17C134F6770009907FE /* SpellingBeeTests-Info.plist */,
+				889CE17D134F6770009907FE /* InfoPlist.strings */,
+				889CE180134F6770009907FE /* SpellingBeeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889CE14A134F676F009907FE /* SpellingBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889CE187134F6770009907FE /* Build configuration list for PBXNativeTarget "SpellingBee" */;
+			buildPhases = (
+				889CE147134F676F009907FE /* Sources */,
+				889CE148134F676F009907FE /* Frameworks */,
+				889CE149134F676F009907FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpellingBee;
+			productName = SpellingBee;
+			productReference = 889CE14B134F6770009907FE /* SpellingBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889CE173134F6770009907FE /* SpellingBeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889CE18A134F6770009907FE /* Build configuration list for PBXNativeTarget "SpellingBeeTests" */;
+			buildPhases = (
+				889CE16F134F6770009907FE /* Sources */,
+				889CE170134F6770009907FE /* Frameworks */,
+				889CE171134F6770009907FE /* Resources */,
+				889CE172134F6770009907FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889CE179134F6770009907FE /* PBXTargetDependency */,
+			);
+			name = SpellingBeeTests;
+			productName = SpellingBeeTests;
+			productReference = 889CE174134F6770009907FE /* SpellingBeeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889CE142134F676F009907FE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 889CE145134F676F009907FE /* Build configuration list for PBXProject "SpellingBee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 889CE140134F676F009907FE;
+			productRefGroup = 889CE14C134F6770009907FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889CE14A134F676F009907FE /* SpellingBee */,
+				889CE173134F6770009907FE /* SpellingBeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889CE149134F676F009907FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE15A134F6770009907FE /* InfoPlist.strings in Resources */,
+				889CE167134F6770009907FE /* MainWindow_iPhone.xib in Resources */,
+				889CE16E134F6770009907FE /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889CE171134F6770009907FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE17F134F6770009907FE /* InfoPlist.strings in Resources */,
+				889CE182134F6770009907FE /* SpellingBeeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		889CE172134F6770009907FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889CE147134F676F009907FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE15D134F6770009907FE /* main.m in Sources */,
+				889CE160134F6770009907FE /* SpellingBeeAppDelegate.m in Sources */,
+				889CE164134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m in Sources */,
+				889CE16B134F6770009907FE /* SpellingBeeAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889CE16F134F6770009907FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CE184134F6770009907FE /* SpellingBeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889CE179134F6770009907FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889CE14A134F676F009907FE /* SpellingBee */;
+			targetProxy = 889CE178134F6770009907FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		889CE158134F6770009907FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889CE159134F6770009907FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		889CE165134F6770009907FE /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889CE166134F6770009907FE /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		889CE16C134F6770009907FE /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889CE16D134F6770009907FE /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		889CE17D134F6770009907FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889CE17E134F6770009907FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889CE185134F6770009907FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		889CE186134F6770009907FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		889CE188134F6770009907FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpellingBee/SpellingBee-Prefix.pch";
+				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		889CE189134F6770009907FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpellingBee/SpellingBee-Prefix.pch";
+				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		889CE18B134F6770009907FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpellingBee.app/SpellingBee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpellingBeeTests/SpellingBeeTests-Prefix.pch";
+				INFOPLIST_FILE = "SpellingBeeTests/SpellingBeeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		889CE18C134F6770009907FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpellingBee.app/SpellingBee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpellingBeeTests/SpellingBeeTests-Prefix.pch";
+				INFOPLIST_FILE = "SpellingBeeTests/SpellingBeeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889CE145134F676F009907FE /* Build configuration list for PBXProject "SpellingBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889CE185134F6770009907FE /* Debug */,
+				889CE186134F6770009907FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889CE187134F6770009907FE /* Build configuration list for PBXNativeTarget "SpellingBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889CE188134F6770009907FE /* Debug */,
+				889CE189134F6770009907FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		889CE18A134F6770009907FE /* Build configuration list for PBXNativeTarget "SpellingBeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889CE18B134F6770009907FE /* Debug */,
+				889CE18C134F6770009907FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889CE142134F676F009907FE /* Project object */;
+}
