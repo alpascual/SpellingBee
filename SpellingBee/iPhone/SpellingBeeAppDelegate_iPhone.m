@@ -15,4 +15,17 @@
 	[super dealloc];
 }
 
+
+
+-(IBAction) startPressed
+{
+    GameController *game = [[GameController alloc] initWithNibName:@"GameController" bundle:nil];
+    
+    game.modalPresentationStyle = UIModalPresentationFullScreen;
+
+    [self.window addSubview: game.view];
+    [self.window makeKeyAndVisible];
+    
+}
+
 @end

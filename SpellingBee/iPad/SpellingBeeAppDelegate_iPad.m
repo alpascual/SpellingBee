@@ -15,4 +15,15 @@
 	[super dealloc];
 }
 
+-(IBAction) startPressed
+{
+    GameController *game = [[GameController alloc] initWithNibName:@"iPadGameController" bundle:nil];
+    
+    game.modalPresentationStyle = UIModalPresentationFullScreen;
+    
+    [self.window addSubview: game.view];
+    [self.window makeKeyAndVisible];
+    
+}
+
 @end

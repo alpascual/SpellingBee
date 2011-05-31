@@ -11,10 +11,15 @@
 @implementation SpellingBeeAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window=_window, sound;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.sound = [[[SoundManager alloc] init] autorelease];
+    [self.sound addSoundToQueue:@"welcome"];
+    [self.sound playQueue];
+    
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;

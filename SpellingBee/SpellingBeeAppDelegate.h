@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SoundManager.h"
 
 @interface SpellingBeeAppDelegate : NSObject <UIApplicationDelegate> {
 
+    SoundManager *sound;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) SoundManager *sound;
 
 @end

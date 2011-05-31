@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7600D1971356A49E00BE1288 /* SpellingBee.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7600D1961356A49E00BE1288 /* SpellingBee.gif */; };
+		7604167113554FC000A3A2FB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604166E13554FC000A3A2FB /* Icon-72.png */; };
+		7604167213554FC000A3A2FB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604166F13554FC000A3A2FB /* Icon.png */; };
+		7604167313554FC000A3A2FB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604167013554FC000A3A2FB /* Icon@2x.png */; };
+		760B3DC61353BD5C00E2628D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760B3DC51353BD5B00E2628D /* iAd.framework */; };
+		760B3DD41353FFCF00E2628D /* iPadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760B3DD21353FFCF00E2628D /* iPadGameController.xib */; };
+		76940B14135A34C7008F22EF /* no.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B11135A34C7008F22EF /* no.wav */; };
+		76940B15135A34C7008F22EF /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B12135A34C7008F22EF /* welcome.wav */; };
+		76940B16135A34C7008F22EF /* yes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B13135A34C7008F22EF /* yes.wav */; };
+		76940B19135A36B9008F22EF /* congratulations.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B18135A36B9008F22EF /* congratulations.wav */; };
+		769C8ABD1353819500374CAB /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C8ABB1353819500374CAB /* GameController.m */; };
+		769C8ABE1353819500374CAB /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769C8ABC1353819500374CAB /* GameController.xib */; };
+		769C8AC21353893A00374CAB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C8AC11353893A00374CAB /* SoundManager.m */; };
+		769C8AC413538A4500374CAB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769C8AC313538A4500374CAB /* AudioToolbox.framework */; };
+		769C8AD513538BF800374CAB /* PlayInternetSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C8AD413538BF800374CAB /* PlayInternetSound.m */; };
+		769C8AE013538FE400374CAB /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C8ADF13538FE300374CAB /* AudioStreamer.m */; };
+		769C8AE21353911F00374CAB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769C8AE11353911F00374CAB /* MediaPlayer.framework */; };
+		769C8AE41353913C00374CAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769C8AE31353913B00374CAB /* QuartzCore.framework */; };
+		769C8AE61353914E00374CAB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769C8AE51353914E00374CAB /* CFNetwork.framework */; };
+		769C8AE81353943000374CAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769C8AE71353943000374CAB /* AVFoundation.framework */; };
+		769C8B1713539A2B00374CAB /* wordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C8B1613539A2A00374CAB /* wordList.m */; };
+		769C8B1A1353AF4B00374CAB /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 769C8B191353AF4B00374CAB /* Default.jpg */; };
+		769C8B1C1353AF8A00374CAB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 769C8B1B1353AF8A00374CAB /* Default.png */; };
 		889CE150134F6770009907FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE14F134F6770009907FE /* UIKit.framework */; };
 		889CE152134F6770009907FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE151134F6770009907FE /* Foundation.framework */; };
 		889CE154134F6770009907FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE153134F6770009907FE /* CoreGraphics.framework */; };
@@ -36,26 +59,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		889CE14B134F6770009907FE /* SpellingBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7600D1961356A49E00BE1288 /* SpellingBee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SpellingBee.gif; sourceTree = "<group>"; };
+		7604166E13554FC000A3A2FB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		7604166F13554FC000A3A2FB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7604167013554FC000A3A2FB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		760B3DC51353BD5B00E2628D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		760B3DD21353FFCF00E2628D /* iPadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadGameController.xib; sourceTree = "<group>"; };
+		76940B11135A34C7008F22EF /* no.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no.wav; sourceTree = "<group>"; };
+		76940B12135A34C7008F22EF /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
+		76940B13135A34C7008F22EF /* yes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yes.wav; sourceTree = "<group>"; };
+		76940B18135A36B9008F22EF /* congratulations.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = congratulations.wav; sourceTree = "<group>"; };
+		769C8ABA1353819500374CAB /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		769C8ABB1353819500374CAB /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		769C8ABC1353819500374CAB /* GameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameController.xib; sourceTree = "<group>"; };
+		769C8AC01353893A00374CAB /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = "../../Geography Tutor/Shared/SoundManager.h"; sourceTree = "<group>"; };
+		769C8AC11353893A00374CAB /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundManager.m; path = "../../Geography Tutor/Shared/SoundManager.m"; sourceTree = "<group>"; };
+		769C8AC313538A4500374CAB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		769C8AD313538BF800374CAB /* PlayInternetSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayInternetSound.h; sourceTree = "<group>"; };
+		769C8AD413538BF800374CAB /* PlayInternetSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayInternetSound.m; sourceTree = "<group>"; };
+		769C8ADE13538FE300374CAB /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioStreamer.h; path = ../../DotNetRocks/DotNetRocks/iPhone/AudioStreamer.h; sourceTree = "<group>"; };
+		769C8ADF13538FE300374CAB /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioStreamer.m; path = ../../DotNetRocks/DotNetRocks/iPhone/AudioStreamer.m; sourceTree = "<group>"; };
+		769C8AE11353911F00374CAB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		769C8AE31353913B00374CAB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		769C8AE51353914E00374CAB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		769C8AE71353943000374CAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		769C8B1513539A2A00374CAB /* wordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordList.h; sourceTree = "<group>"; };
+		769C8B1613539A2A00374CAB /* wordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordList.m; sourceTree = "<group>"; };
+		769C8B191353AF4B00374CAB /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
+		769C8B1B1353AF8A00374CAB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		889CE14B134F6770009907FE /* spellingbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spellingbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889CE14F134F6770009907FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		889CE151134F6770009907FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		889CE153134F6770009907FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		889CE157134F6770009907FE /* SpellingBee-Info.plist */ = {isa = PBXFileReference; path = "SpellingBee-Info.plist"; sourceTree = "<group>"; };
+		889CE157134F6770009907FE /* SpellingBee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpellingBee-Info.plist"; sourceTree = "<group>"; };
 		889CE159134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		889CE15B134F6770009907FE /* SpellingBee-Prefix.pch */ = {isa = PBXFileReference; path = "SpellingBee-Prefix.pch"; sourceTree = "<group>"; };
+		889CE15B134F6770009907FE /* SpellingBee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpellingBee-Prefix.pch"; sourceTree = "<group>"; };
 		889CE15C134F6770009907FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		889CE15E134F6770009907FE /* SpellingBeeAppDelegate.h */ = {isa = PBXFileReference; path = SpellingBeeAppDelegate.h; sourceTree = "<group>"; };
+		889CE15E134F6770009907FE /* SpellingBeeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpellingBeeAppDelegate.h; sourceTree = "<group>"; };
 		889CE15F134F6770009907FE /* SpellingBeeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellingBeeAppDelegate.m; sourceTree = "<group>"; };
-		889CE162134F6770009907FE /* SpellingBeeAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = SpellingBeeAppDelegate_iPhone.h; path = iPhone/SpellingBeeAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		889CE162134F6770009907FE /* SpellingBeeAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellingBeeAppDelegate_iPhone.h; path = iPhone/SpellingBeeAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		889CE163134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SpellingBeeAppDelegate_iPhone.m; path = iPhone/SpellingBeeAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		889CE166134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		889CE169134F6770009907FE /* SpellingBeeAppDelegate_iPad.h */ = {isa = PBXFileReference; name = SpellingBeeAppDelegate_iPad.h; path = iPad/SpellingBeeAppDelegate_iPad.h; sourceTree = "<group>"; };
+		889CE169134F6770009907FE /* SpellingBeeAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellingBeeAppDelegate_iPad.h; path = iPad/SpellingBeeAppDelegate_iPad.h; sourceTree = "<group>"; };
 		889CE16A134F6770009907FE /* SpellingBeeAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SpellingBeeAppDelegate_iPad.m; path = iPad/SpellingBeeAppDelegate_iPad.m; sourceTree = "<group>"; };
 		889CE16D134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		889CE174134F6770009907FE /* SpellingBeeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellingBeeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		889CE17C134F6770009907FE /* SpellingBeeTests-Info.plist */ = {isa = PBXFileReference; path = "SpellingBeeTests-Info.plist"; sourceTree = "<group>"; };
+		889CE17C134F6770009907FE /* SpellingBeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpellingBeeTests-Info.plist"; sourceTree = "<group>"; };
 		889CE17E134F6770009907FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		889CE180134F6770009907FE /* SpellingBeeTests-Prefix.pch */ = {isa = PBXFileReference; path = "SpellingBeeTests-Prefix.pch"; sourceTree = "<group>"; };
+		889CE180134F6770009907FE /* SpellingBeeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpellingBeeTests-Prefix.pch"; sourceTree = "<group>"; };
 		889CE181134F6770009907FE /* SpellingBeeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpellingBeeTests.h; sourceTree = "<group>"; };
 		889CE183134F6770009907FE /* SpellingBeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellingBeeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +116,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760B3DC61353BD5C00E2628D /* iAd.framework in Frameworks */,
+				769C8AE81353943000374CAB /* AVFoundation.framework in Frameworks */,
+				769C8AE61353914E00374CAB /* CFNetwork.framework in Frameworks */,
+				769C8AE41353913C00374CAB /* QuartzCore.framework in Frameworks */,
+				769C8AE21353911F00374CAB /* MediaPlayer.framework in Frameworks */,
+				769C8AC413538A4500374CAB /* AudioToolbox.framework in Frameworks */,
 				889CE150134F6770009907FE /* UIKit.framework in Frameworks */,
 				889CE152134F6770009907FE /* Foundation.framework in Frameworks */,
 				889CE154134F6770009907FE /* CoreGraphics.framework in Frameworks */,
@@ -84,9 +141,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		769C8B181353AF4B00374CAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76940B18135A36B9008F22EF /* congratulations.wav */,
+				76940B11135A34C7008F22EF /* no.wav */,
+				76940B12135A34C7008F22EF /* welcome.wav */,
+				76940B13135A34C7008F22EF /* yes.wav */,
+				7600D1961356A49E00BE1288 /* SpellingBee.gif */,
+				7604166E13554FC000A3A2FB /* Icon-72.png */,
+				7604166F13554FC000A3A2FB /* Icon.png */,
+				7604167013554FC000A3A2FB /* Icon@2x.png */,
+				769C8B1B1353AF8A00374CAB /* Default.png */,
+				769C8B191353AF4B00374CAB /* Default.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		889CE140134F676F009907FE = {
 			isa = PBXGroup;
 			children = (
+				760B3DC51353BD5B00E2628D /* iAd.framework */,
+				769C8AE71353943000374CAB /* AVFoundation.framework */,
+				769C8AE51353914E00374CAB /* CFNetwork.framework */,
+				769C8AE31353913B00374CAB /* QuartzCore.framework */,
+				769C8AE11353911F00374CAB /* MediaPlayer.framework */,
+				769C8AC313538A4500374CAB /* AudioToolbox.framework */,
 				889CE155134F6770009907FE /* SpellingBee */,
 				889CE17A134F6770009907FE /* SpellingBeeTests */,
 				889CE14E134F6770009907FE /* Frameworks */,
@@ -97,7 +177,7 @@
 		889CE14C134F6770009907FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				889CE14B134F6770009907FE /* SpellingBee.app */,
+				889CE14B134F6770009907FE /* spellingbee.app */,
 				889CE174134F6770009907FE /* SpellingBeeTests.octest */,
 			);
 			name = Products;
@@ -116,6 +196,7 @@
 		889CE155134F6770009907FE /* SpellingBee */ = {
 			isa = PBXGroup;
 			children = (
+				769C8B181353AF4B00374CAB /* Resources */,
 				889CE15E134F6770009907FE /* SpellingBeeAppDelegate.h */,
 				889CE15F134F6770009907FE /* SpellingBeeAppDelegate.m */,
 				889CE161134F6770009907FE /* iPhone */,
@@ -139,9 +220,20 @@
 		889CE161134F6770009907FE /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				769C8ADE13538FE300374CAB /* AudioStreamer.h */,
+				769C8ADF13538FE300374CAB /* AudioStreamer.m */,
+				769C8AC01353893A00374CAB /* SoundManager.h */,
+				769C8AC11353893A00374CAB /* SoundManager.m */,
 				889CE162134F6770009907FE /* SpellingBeeAppDelegate_iPhone.h */,
 				889CE163134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m */,
 				889CE165134F6770009907FE /* MainWindow_iPhone.xib */,
+				769C8ABA1353819500374CAB /* GameController.h */,
+				769C8ABB1353819500374CAB /* GameController.m */,
+				769C8ABC1353819500374CAB /* GameController.xib */,
+				769C8AD313538BF800374CAB /* PlayInternetSound.h */,
+				769C8AD413538BF800374CAB /* PlayInternetSound.m */,
+				769C8B1513539A2A00374CAB /* wordList.h */,
+				769C8B1613539A2A00374CAB /* wordList.m */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -152,6 +244,7 @@
 				889CE169134F6770009907FE /* SpellingBeeAppDelegate_iPad.h */,
 				889CE16A134F6770009907FE /* SpellingBeeAppDelegate_iPad.m */,
 				889CE16C134F6770009907FE /* MainWindow_iPad.xib */,
+				760B3DD21353FFCF00E2628D /* iPadGameController.xib */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -193,7 +286,7 @@
 			);
 			name = SpellingBee;
 			productName = SpellingBee;
-			productReference = 889CE14B134F6770009907FE /* SpellingBee.app */;
+			productReference = 889CE14B134F6770009907FE /* spellingbee.app */;
 			productType = "com.apple.product-type.application";
 		};
 		889CE173134F6770009907FE /* SpellingBeeTests */ = {
@@ -246,6 +339,18 @@
 				889CE15A134F6770009907FE /* InfoPlist.strings in Resources */,
 				889CE167134F6770009907FE /* MainWindow_iPhone.xib in Resources */,
 				889CE16E134F6770009907FE /* MainWindow_iPad.xib in Resources */,
+				769C8ABE1353819500374CAB /* GameController.xib in Resources */,
+				769C8B1A1353AF4B00374CAB /* Default.jpg in Resources */,
+				769C8B1C1353AF8A00374CAB /* Default.png in Resources */,
+				760B3DD41353FFCF00E2628D /* iPadGameController.xib in Resources */,
+				7604167113554FC000A3A2FB /* Icon-72.png in Resources */,
+				7604167213554FC000A3A2FB /* Icon.png in Resources */,
+				7604167313554FC000A3A2FB /* Icon@2x.png in Resources */,
+				7600D1971356A49E00BE1288 /* SpellingBee.gif in Resources */,
+				76940B14135A34C7008F22EF /* no.wav in Resources */,
+				76940B15135A34C7008F22EF /* welcome.wav in Resources */,
+				76940B16135A34C7008F22EF /* yes.wav in Resources */,
+				76940B19135A36B9008F22EF /* congratulations.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +390,11 @@
 				889CE160134F6770009907FE /* SpellingBeeAppDelegate.m in Sources */,
 				889CE164134F6770009907FE /* SpellingBeeAppDelegate_iPhone.m in Sources */,
 				889CE16B134F6770009907FE /* SpellingBeeAppDelegate_iPad.m in Sources */,
+				769C8ABD1353819500374CAB /* GameController.m in Sources */,
+				769C8AC21353893A00374CAB /* SoundManager.m in Sources */,
+				769C8AD513538BF800374CAB /* PlayInternetSound.m in Sources */,
+				769C8AE013538FE400374CAB /* AudioStreamer.m in Sources */,
+				769C8B1713539A2B00374CAB /* wordList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +452,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		760B3DD513540A3100E2628D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		760B3DD613540A3100E2628D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpellingBee/SpellingBee-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = spellingbee;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		760B3DD713540A3100E2628D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpellingBee.app/SpellingBee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpellingBeeTests/SpellingBeeTests-Prefix.pch";
+				INFOPLIST_FILE = "SpellingBeeTests/SpellingBeeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
 		889CE185134F6770009907FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -380,12 +548,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpellingBee/SpellingBee-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = spellingbee;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,11 +566,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpellingBee/SpellingBee-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = spellingbee;
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +632,7 @@
 			buildConfigurations = (
 				889CE185134F6770009907FE /* Debug */,
 				889CE186134F6770009907FE /* Release */,
+				760B3DD513540A3100E2628D /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -465,16 +642,20 @@
 			buildConfigurations = (
 				889CE188134F6770009907FE /* Debug */,
 				889CE189134F6770009907FE /* Release */,
+				760B3DD613540A3100E2628D /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		889CE18A134F6770009907FE /* Build configuration list for PBXNativeTarget "SpellingBeeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				889CE18B134F6770009907FE /* Debug */,
 				889CE18C134F6770009907FE /* Release */,
+				760B3DD713540A3100E2628D /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

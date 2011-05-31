@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "SpellingBeeAppDelegate.h"
+#import "GameController.h"
 
 @interface SpellingBeeAppDelegate_iPhone : SpellingBeeAppDelegate {
     
 }
+
+-(IBAction) startPressed;
 
 @end
