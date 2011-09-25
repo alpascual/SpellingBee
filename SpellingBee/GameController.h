@@ -11,6 +11,7 @@
 #import "SoundManager.h"
 #import "PlayInternetSound.h"
 #import "wordList.h"
+#import "GADBannerView.h"
 
 
 @interface GameController : UIViewController <UITextFieldDelegate> {
@@ -32,6 +33,7 @@
     int iTries;
     
     UILabel *lettersLeft;
+     GADBannerView *bannerView_;
     
 }
 

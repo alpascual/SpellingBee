@@ -32,6 +32,7 @@
     [self.words release];
     [self.randomWord release];
     [self.sound release];
+    [bannerView_ release];
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,6 +49,24 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    // Create a view of the standard size at the bottom of the screen.
+    bannerView_ = [[GADBannerView alloc]
+                   initWithFrame:CGRectMake(0.0,
+                                            self.view.frame.size.height -
+                                            GAD_SIZE_320x50.height,
+                                            GAD_SIZE_320x50.width,
+                                            GAD_SIZE_320x50.height)];
+    
+    // Specify the ad's "unit identifier." This is your AdMob Publisher ID.
+    bannerView_.adUnitID = @"a14e228f71466ef";
+    
+    // Let the runtime know which UIViewController to restore after taking
+    // the user wherever the ad goes and add it to the view hierarchy.
+    bannerView_.rootViewController = self;
+    [self.view addSubview:bannerView_];
+    
+    // Initiate a generic request to load it with an ad.
+    [bannerView_ loadRequest:[GADRequest request]];
     
    // Create an array with lots of words 
     

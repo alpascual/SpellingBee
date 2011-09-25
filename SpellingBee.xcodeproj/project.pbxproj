@@ -13,6 +13,7 @@
 		7604167313554FC000A3A2FB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604167013554FC000A3A2FB /* Icon@2x.png */; };
 		760B3DC61353BD5C00E2628D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760B3DC51353BD5B00E2628D /* iAd.framework */; };
 		760B3DD41353FFCF00E2628D /* iPadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760B3DD21353FFCF00E2628D /* iPadGameController.xib */; };
+		761D2A1F140CA5E9003188DB /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D2A1E140CA5E9003188DB /* SoundManager.m */; };
 		76940B14135A34C7008F22EF /* no.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B11135A34C7008F22EF /* no.wav */; };
 		76940B15135A34C7008F22EF /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B12135A34C7008F22EF /* welcome.wav */; };
 		76940B16135A34C7008F22EF /* yes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B13135A34C7008F22EF /* yes.wav */; };
@@ -30,6 +31,9 @@
 		769C8B1713539A2B00374CAB /* wordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C8B1613539A2A00374CAB /* wordList.m */; };
 		769C8B1A1353AF4B00374CAB /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 769C8B191353AF4B00374CAB /* Default.jpg */; };
 		769C8B1C1353AF8A00374CAB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 769C8B1B1353AF8A00374CAB /* Default.png */; };
+		76E35D2813D2C669001A4F88 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E35D2713D2C669001A4F88 /* libGoogleAdMobAds.a */; };
+		76E35D3313D2C856001A4F88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E35D3213D2C856001A4F88 /* SystemConfiguration.framework */; };
+		76E35D3513D2C870001A4F88 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E35D3413D2C870001A4F88 /* MessageUI.framework */; };
 		889CE150134F6770009907FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE14F134F6770009907FE /* UIKit.framework */; };
 		889CE152134F6770009907FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE151134F6770009907FE /* Foundation.framework */; };
 		889CE154134F6770009907FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CE153134F6770009907FE /* CoreGraphics.framework */; };
@@ -65,6 +69,8 @@
 		7604167013554FC000A3A2FB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		760B3DC51353BD5B00E2628D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		760B3DD21353FFCF00E2628D /* iPadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadGameController.xib; sourceTree = "<group>"; };
+		761D2A1D140CA5E9003188DB /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = ../SnoreMonitor/BabyMonitor/SoundManager.h; sourceTree = "<group>"; };
+		761D2A1E140CA5E9003188DB /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundManager.m; path = ../SnoreMonitor/BabyMonitor/SoundManager.m; sourceTree = "<group>"; };
 		76940B11135A34C7008F22EF /* no.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no.wav; sourceTree = "<group>"; };
 		76940B12135A34C7008F22EF /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
 		76940B13135A34C7008F22EF /* yes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yes.wav; sourceTree = "<group>"; };
@@ -87,6 +93,15 @@
 		769C8B1613539A2A00374CAB /* wordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordList.m; sourceTree = "<group>"; };
 		769C8B191353AF4B00374CAB /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
 		769C8B1B1353AF8A00374CAB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		76E35D2113D2C669001A4F88 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = ../GoogleAdMobAdsSDK/GADBannerView.h; sourceTree = "<group>"; };
+		76E35D2213D2C669001A4F88 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = ../GoogleAdMobAdsSDK/GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		76E35D2313D2C669001A4F88 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = ../GoogleAdMobAdsSDK/GADInterstitial.h; sourceTree = "<group>"; };
+		76E35D2413D2C669001A4F88 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = ../GoogleAdMobAdsSDK/GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		76E35D2513D2C669001A4F88 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = ../GoogleAdMobAdsSDK/GADRequest.h; sourceTree = "<group>"; };
+		76E35D2613D2C669001A4F88 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = ../GoogleAdMobAdsSDK/GADRequestError.h; sourceTree = "<group>"; };
+		76E35D2713D2C669001A4F88 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = ../GoogleAdMobAdsSDK/libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		76E35D3213D2C856001A4F88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		76E35D3413D2C870001A4F88 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		889CE14B134F6770009907FE /* spellingbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spellingbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889CE14F134F6770009907FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		889CE151134F6770009907FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E35D3513D2C870001A4F88 /* MessageUI.framework in Frameworks */,
+				76E35D3313D2C856001A4F88 /* SystemConfiguration.framework in Frameworks */,
 				760B3DC61353BD5C00E2628D /* iAd.framework in Frameworks */,
 				769C8AE81353943000374CAB /* AVFoundation.framework in Frameworks */,
 				769C8AE61353914E00374CAB /* CFNetwork.framework in Frameworks */,
@@ -125,6 +142,7 @@
 				889CE150134F6770009907FE /* UIKit.framework in Frameworks */,
 				889CE152134F6770009907FE /* Foundation.framework in Frameworks */,
 				889CE154134F6770009907FE /* CoreGraphics.framework in Frameworks */,
+				76E35D2813D2C669001A4F88 /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +179,17 @@
 		889CE140134F676F009907FE = {
 			isa = PBXGroup;
 			children = (
+				761D2A1D140CA5E9003188DB /* SoundManager.h */,
+				761D2A1E140CA5E9003188DB /* SoundManager.m */,
+				76E35D3413D2C870001A4F88 /* MessageUI.framework */,
+				76E35D3213D2C856001A4F88 /* SystemConfiguration.framework */,
+				76E35D2113D2C669001A4F88 /* GADBannerView.h */,
+				76E35D2213D2C669001A4F88 /* GADBannerViewDelegate.h */,
+				76E35D2313D2C669001A4F88 /* GADInterstitial.h */,
+				76E35D2413D2C669001A4F88 /* GADInterstitialDelegate.h */,
+				76E35D2513D2C669001A4F88 /* GADRequest.h */,
+				76E35D2613D2C669001A4F88 /* GADRequestError.h */,
+				76E35D2713D2C669001A4F88 /* libGoogleAdMobAds.a */,
 				760B3DC51353BD5B00E2628D /* iAd.framework */,
 				769C8AE71353943000374CAB /* AVFoundation.framework */,
 				769C8AE51353914E00374CAB /* CFNetwork.framework */,
@@ -395,6 +424,7 @@
 				769C8AD513538BF800374CAB /* PlayInternetSound.m in Sources */,
 				769C8AE013538FE400374CAB /* AudioStreamer.m in Sources */,
 				769C8B1713539A2B00374CAB /* wordList.m in Sources */,
+				761D2A1F140CA5E9003188DB /* SoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +510,10 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
+				);
 				PRODUCT_NAME = spellingbee;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -556,6 +590,10 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
+				);
 				PRODUCT_NAME = spellingbee;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -573,6 +611,10 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
+				);
 				PRODUCT_NAME = spellingbee;
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
