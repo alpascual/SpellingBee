@@ -13,6 +13,7 @@
 		7604167313554FC000A3A2FB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7604167013554FC000A3A2FB /* Icon@2x.png */; };
 		760B3DC61353BD5C00E2628D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760B3DC51353BD5B00E2628D /* iAd.framework */; };
 		760B3DD41353FFCF00E2628D /* iPadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760B3DD21353FFCF00E2628D /* iPadGameController.xib */; };
+		760EDA08160963F900A98F56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760EDA07160963F900A98F56 /* Default-568h@2x.png */; };
 		76940B14135A34C7008F22EF /* no.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B11135A34C7008F22EF /* no.wav */; };
 		76940B15135A34C7008F22EF /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B12135A34C7008F22EF /* welcome.wav */; };
 		76940B16135A34C7008F22EF /* yes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76940B13135A34C7008F22EF /* yes.wav */; };
@@ -68,6 +69,7 @@
 		7604167013554FC000A3A2FB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		760B3DC51353BD5B00E2628D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		760B3DD21353FFCF00E2628D /* iPadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadGameController.xib; sourceTree = "<group>"; };
+		760EDA07160963F900A98F56 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76940B11135A34C7008F22EF /* no.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no.wav; sourceTree = "<group>"; };
 		76940B12135A34C7008F22EF /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
 		76940B13135A34C7008F22EF /* yes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yes.wav; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		889CE140134F676F009907FE = {
 			isa = PBXGroup;
 			children = (
+				760EDA07160963F900A98F56 /* Default-568h@2x.png */,
 				76E35D3413D2C870001A4F88 /* MessageUI.framework */,
 				76E35D3213D2C856001A4F88 /* SystemConfiguration.framework */,
 				76E35D2113D2C669001A4F88 /* GADBannerView.h */,
@@ -378,6 +381,7 @@
 				76940B15135A34C7008F22EF /* welcome.wav in Resources */,
 				76940B16135A34C7008F22EF /* yes.wav in Resources */,
 				76940B19135A36B9008F22EF /* congratulations.wav in Resources */,
+				760EDA08160963F900A98F56 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +516,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
@@ -603,7 +607,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
@@ -625,7 +629,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "SpellingBee/SpellingBee-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
